@@ -1,0 +1,771 @@
+body {
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-family: sans-serif;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* logo */
+.logo img {
+  width: 135px;
+  height: 30px;
+  margin-top: 11px;
+}
+.loc_search {
+  display: flex;
+  box-shadow: 0px 0px 5px rgb(100, 99, 99);
+  border-radius: 5px;
+  margin-left: 30px;
+  padding: 5px;
+  width: 700px;
+}
+input:focus {
+  outline: none;
+}
+/* location */
+.loc_search img {
+  height: 17px;
+  width: 17px;
+  margin-top: 12px;
+}
+.loc_search .searchicon {
+  height: 17px;
+  width: 17px;
+  margin-top: 13px;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+/* drop down */
+#dropdown {
+  height: 30px;
+  width: 160px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(100, 99, 99);
+  margin-top: 6px;
+  border-right: 2px solid rgb(100, 99, 99);
+}
+#dropdown:focus {
+  outline: none;
+}
+
+/* search */
+.loc_search input {
+  height: 30px;
+  width: 400px;
+  border: none;
+  margin-left: 20px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+/* login */
+.login a {
+  text-decoration: none;
+  color: rgb(100, 99, 99);
+  font-size: 17px;
+}
+.login p {
+  margin-left: 70px;
+}
+/* signup */
+.signup a {
+  text-decoration: none;
+  color: rgb(100, 99, 99);
+  font-size: 17px;
+}
+.signup p {
+  margin-left: 50px;
+}
+/* segregation */
+.segregation {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+.segregation .img1 {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  padding: 2px;
+  background-color: bisque;
+}
+.segregation .img2 {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  border-radius: 30px;
+  padding: 2px;
+  margin-left: 100px;
+  background-color: rgb(227, 222, 222);
+}
+.segregation .img3 {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  border-radius: 30px;
+  padding: 2px;
+  margin-left: 100px;
+  background-color: rgb(227, 222, 222);
+}
+.segregation a {
+  text-decoration: none;
+}
+.sp1 {
+  margin-top: 20px;
+}
+.sp2 {
+  margin-top: 20px;
+}
+.sp3 {
+  margin-top: 20px;
+}
+.segregation .span1 {
+  margin-left: 5px;
+  font-size: 20px;
+  color: #ee3c3c;
+  padding: 10px;
+  border-bottom: 3px solid #ee3c3c;
+}
+.segregation .span2 {
+  margin-left: 5px;
+  font-size: 20px;
+  color: rgb(118, 117, 117);
+  padding: 10px;
+}
+.segregation .span3 {
+  margin-left: 5px;
+  font-size: 20px;
+  color: rgb(118, 117, 117);
+  padding: 10px;
+}
+/* filters */
+.filter_main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.filter_main p:hover {
+  cursor: pointer;
+  background-color: rgb(243, 243, 243);
+}
+.filter1 p {
+  border: 1.5px solid rgb(154, 154, 154);
+  border-radius: 6px;
+  height: 13px;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  color: rgb(154, 154, 154);
+}
+.filter2 p {
+  border: 1.5px solid rgb(154, 154, 154);
+  border-radius: 6px;
+  height: 13px;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  color: rgb(154, 154, 154);
+  margin-left: 20px;
+}
+.filter3 p {
+  border: 1.5px solid rgb(154, 154, 154);
+  border-radius: 6px;
+  height: 13px;
+  width: 80px;
+  padding: 10px;
+  text-align: center;
+  color: rgb(154, 154, 154);
+  margin-left: 20px;
+}
+.filter4 p {
+  border: 1.5px solid rgb(154, 154, 154);
+  border-radius: 6px;
+  height: 13px;
+  width: 80px;
+  padding: 10px;
+  text-align: center;
+  color: rgb(154, 154, 154);
+  margin-left: 20px;
+}
+/* inspiration */
+.inspirations {
+  background-color: rgb(243, 243, 243);
+  margin: none;
+  padding: 5px;
+  width: 100%;
+  height: 320px;
+  margin-top: 13px;
+  border: none;
+  border-radius: 5px;
+}
+.inspirations p {
+  font-size: 30px;
+}
+.insp {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.inspiration img {
+  width: 150px;
+  height: 150px;
+  border: none;
+  border-radius: 75px;
+}
+.inspiration:hover {
+  transform: scale(1.1);
+}
+
+.inspiration:hover {
+  cursor: pointer;
+}
+.inspiration p {
+  font-size: 18px;
+  text-align: center;
+  color: rgb(69, 69, 69);
+}
+/* Top brands */
+.topbrands {
+  margin: none;
+  padding: 5px;
+  width: 100%;
+  height: 320px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.tops p {
+  font-size: 30px;
+}
+.topbrand {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.top {
+  width: 150px;
+  height: 150px;
+}
+.top img {
+  width: 150px;
+  height: 150px;
+  border: none;
+  border-radius: 75px;
+  border: 1px solid rgb(226, 224, 224);
+}
+.top:hover {
+  cursor: pointer;
+}
+.top img:hover {
+  rotate: 360deg;
+  transition-duration: 2s;
+}
+.top p {
+  font-size: 16px;
+  text-align: center;
+  color: rgb(69, 69, 69);
+}
+.top .time {
+  font-size: 14px;
+  color: rgb(154, 154, 154);
+}
+/* Restaurants */
+.Restaurants {
+  margin: none;
+  padding-top: 20px;
+}
+.restaurant_heading p {
+  font-size: 30px;
+}
+/* FLEX1 */
+.flex1 {
+  display: flex;
+  justify-content: space-around;
+}
+/* RESTAURANT 1 */
+.res1 {
+  padding: 10px;
+  width: 330px;
+  height: 405px;
+  border-radius: 15px;
+}
+.res1:hover {
+  border: 1px solid rgb(226, 224, 224);
+  box-shadow: 1px 1px 5px rgb(226, 224, 224);
+}
+.res1 a {
+  text-decoration: none;
+}
+.res1 .res_img {
+  width: 330px;
+  height: 260px;
+  border: none;
+  border-radius: 15px;
+}
+.res1 .off {
+  width: 70px;
+  height: 20px;
+  background-color: #3d60dd;
+  border: none;
+  border-radius: 5px;
+  transform: translate(0px, -45px);
+}
+.res1 .off p {
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+  padding: 4px;
+}
+.res1 .name_rating {
+  margin-top: -60px;
+  /* display: flex; */
+}
+.res1 .name_rating h5 {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  overflow: hidden;
+}
+.res1 .name_rating .rating {
+  width: 40px;
+  height: 22px;
+  margin-left: 280px;
+  margin-top: -57px;
+  background-color: rgb(10, 197, 10);
+  border: none;
+  border-radius: 6px;
+}
+.res1 .rating p {
+  color: white;
+  font-weight: 600;
+  padding: 3px;
+  text-align: center;
+}
+.res1 .dish_details p {
+  overflow: hidden;
+  font-size: 14px;
+  color: rgb(154, 154, 154);
+}
+.res1 .short_text {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 220px;
+}
+.res1 .dish_details .price {
+  font-size: 14px;
+  color: rgb(154, 154, 154);
+  margin-left: 240px;
+  margin-top: -32px;
+}
+.res1 .distance p {
+  font-size: 14px;
+  color: rgb(87, 87, 87);
+  margin-left: 277px;
+}
+.res1 hr {
+  height: 1px;
+  background-color: rgb(186, 185, 185);
+  border: none;
+}
+.res1 .safety {
+  display: flex;
+  justify-content: space-around;
+}
+.res1 .safeimg {
+  margin-top: 1px;
+  width: 50px;
+  height: 20px;
+}
+.res1 .safety_text {
+  margin-left: 15px;
+  margin-top: -15px;
+}
+.res1 .safety_text p {
+  font-size: 12px;
+  color: rgb(154, 154, 154);
+}
+/* RESTAURANT 2 */
+.res2 {
+  padding: 10px;
+  width: 330px;
+  height: 405px;
+  border-radius: 15px;
+}
+.res2:hover {
+  border: 1px solid rgb(226, 224, 224);
+  box-shadow: 1px 1px 5px rgb(226, 224, 224);
+}
+.res2 a {
+  text-decoration: none;
+}
+.res2 .res_img {
+  width: 330px;
+  height: 260px;
+  border: none;
+  border-radius: 15px;
+}
+.res2 .off {
+  width: 70px;
+  height: 20px;
+  background-color: #3d60dd;
+  border: none;
+  border-radius: 5px;
+  transform: translate(0px, -45px);
+}
+.res2 .off p {
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+  padding: 4px;
+}
+.res2 .name_rating {
+  margin-top: -60px;
+}
+.res2 .name_rating h5 {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  overflow: hidden;
+}
+.res2 .name_rating .rating {
+  width: 40px;
+  height: 22px;
+  margin-left: 280px;
+  margin-top: -57px;
+  background-color: rgb(10, 197, 10);
+  border: none;
+  border-radius: 6px;
+}
+.res2 .rating p {
+  color: white;
+  font-weight: 600;
+  padding: 3px;
+  text-align: center;
+}
+.res2 .dish_details p {
+  overflow: hidden;
+  font-size: 14px;
+  color: rgb(154, 154, 154);
+}
+.res2 .short_text {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 220px;
+}
+.res2 .dish_details .price {
+  font-size: 14px;
+  color: rgb(154, 154, 154);
+  margin-left: 240px;
+  margin-top: -32px;
+}
+.res2 .distance p {
+  font-size: 14px;
+  color: rgb(87, 87, 87);
+  margin-left: 277px;
+}
+.res2 hr {
+  height: 1px;
+  background-color: rgb(186, 185, 185);
+  border: none;
+}
+.res2 .safety {
+  display: flex;
+  justify-content: space-around;
+}
+.res2 .safeimg {
+  margin-top: 1px;
+  width: 50px;
+  height: 20px;
+}
+.res2 .safety_text {
+  margin-left: 15px;
+  margin-top: -15px;
+}
+.res2 .safety_text p {
+  font-size: 12px;
+  color: rgb(154, 154, 154);
+}
+/* RESTAURANT 3 */
+.res3 {
+  padding: 10px;
+  width: 330px;
+  height: 405px;
+  border-radius: 15px;
+}
+.res3:hover {
+  border: 1px solid rgb(226, 224, 224);
+  box-shadow: 1px 1px 5px rgb(226, 224, 224);
+}
+.res3 a {
+  text-decoration: none;
+}
+.res3 .res_img {
+  width: 330px;
+  height: 260px;
+  border: none;
+  border-radius: 15px;
+}
+.res3 .off {
+  width: 70px;
+  height: 20px;
+  background-color: #3d60dd;
+  border: none;
+  border-radius: 5px;
+  transform: translate(0px, -45px);
+}
+.res3 .off p {
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+  padding: 4px;
+}
+.res3 .name_rating {
+  margin-top: -60px;
+}
+.res3 .name_rating h5 {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  overflow: hidden;
+}
+.res3 .name_rating .rating {
+  width: 40px;
+  height: 22px;
+  margin-left: 280px;
+  margin-top: -57px;
+  background-color: rgb(10, 197, 10);
+  border: none;
+  border-radius: 6px;
+}
+.res3 .rating p {
+  color: white;
+  font-weight: 600;
+  padding: 3px;
+  text-align: center;
+}
+.res3 .dish_details p {
+  overflow: hidden;
+  font-size: 14px;
+  color: rgb(154, 154, 154);
+}
+.res3 .short_text {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 220px;
+}
+.res3 .dish_details .price {
+  font-size: 14px;
+  color: rgb(154, 154, 154);
+  margin-left: 240px;
+  margin-top: -32px;
+}
+.res3 .distance p {
+  font-size: 14px;
+  color: rgb(87, 87, 87);
+  margin-left: 277px;
+}
+.res3 hr {
+  height: 1px;
+  background-color: rgb(186, 185, 185);
+  border: none;
+}
+.res3 .safety {
+  display: flex;
+  justify-content: space-around;
+}
+.res3 .safeimg {
+  margin-top: 1px;
+  width: 50px;
+  height: 20px;
+}
+.res3 .safety_text {
+  margin-left: 15px;
+  margin-top: -15px;
+}
+.res3 .safety_text p {
+  font-size: 12px;
+  color: rgb(154, 154, 154);
+}
+/* FLEX2 */
+.flex2 {
+  display: flex;
+  justify-content: space-around;
+}
+/* FOOTER */
+.footer {
+  margin-top: 50px;
+  background-color: rgb(234, 232, 232);
+}
+.logo_lan {
+  padding-top: 50px;
+  padding-left: 30px;
+  display: flex;
+}
+.footer_logo img {
+  width: 120px;
+  height: 30px;
+}
+.country {
+  border: 1px solid rgb(148, 148, 148);
+  display: flex;
+  padding: 5px;
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  transform: translate(600px, -10px);
+}
+.country:hover {
+  cursor: pointer;
+}
+.country img {
+  width: 25px;
+  height: 25px;
+  padding-left: 8px;
+}
+.country p {
+  font-size: 20px;
+  color: rgb(45, 45, 45);
+  transform: translate(10px, -20px);
+}
+.language {
+  border: 1px solid rgb(148, 148, 148);
+  display: flex;
+  padding: 5px;
+  width: 170px;
+  height: 25px;
+  border-radius: 5px;
+  transform: translate(630px, -10px);
+}
+.language img {
+  width: 20px;
+  height: 20px;
+  transform: translate(5px, 2px);
+}
+select {
+  font-size: 15px;
+  transform: translateX(15px);
+  border: none;
+  background: transparent;
+}
+select:focus {
+  outline: none;
+}
+.kuram {
+  display: flex;
+}
+.kuram1 {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.kuram1 h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.kuram1 p {
+  font-size: 14px;
+  line-height: 7px;
+  color: rgb(119, 119, 119);
+}
+.kuram1 p:hover {
+  cursor: pointer;
+}
+.kuram2 {
+  padding-top: 20px;
+  padding-left: 100px;
+}
+.kuram2 h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.kuram2 p {
+  font-size: 14px;
+  line-height: 7px;
+  color: rgb(119, 119, 119);
+}
+.kuram2 p:hover {
+  cursor: pointer;
+}
+.kuram3 {
+  padding-top: 20px;
+  padding-left: 100px;
+}
+.kuram5 h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.kuram5 p {
+  font-size: 14px;
+  line-height: 7px;
+  color: rgb(119, 119, 119);
+}
+.kuram5 {
+  padding-top: 15px;
+}
+.kuram4 h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.kuram4 p {
+  font-size: 14px;
+  line-height: 7px;
+  color: rgb(119, 119, 119);
+}
+.kuram4 p:hover {
+  cursor: pointer;
+}
+.kuram5 p:hover {
+  cursor: pointer;
+}
+.kuram6 {
+  padding-top: 20px;
+  padding-left: 100px;
+}
+.kuram6 h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.kuram6 p {
+  font-size: 14px;
+  line-height: 7px;
+  color: rgb(119, 119, 119);
+}
+.kuram6 p:hover {
+  cursor: pointer;
+}
+.kuram7 {
+  padding-top: 20px;
+  padding-left: 80px;
+}
+.kuram7 h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.kuram7 img {
+  width: 23px;
+  height: 23px;
+  padding: 3px;
+}
+.kuram9 {
+  transform: translateY(5px);
+  display: flex;
+  flex-direction: column;
+}
+.kuram9 img {
+  width: 150px;
+  height: 40px;
+}
+.last p {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(119, 119, 119);
+}

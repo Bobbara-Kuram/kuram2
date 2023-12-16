@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zomato-confirm order, payment</title>
+    <link rel="icon" href="zomato_icon1.png" />
+    <style>
+      body {
+        background-color: #191919;
+        font-family: sans-serif;
+      }
+      .main {
+        background-color: white;
+        height: 350px;
+        width: 33%;
+        padding: 25px;
+        margin-left: 32%;
+        margin-top: 80px;
+        border: none;
+        border-radius: 6px;
+      }
+      span {
+        font-size: 30px;
+        font-weight: 400;
+        color: #e64848 ;
+      }
+      .msg{
+        margin-top: 40px;
+        font-size: 15px;
+        color: rgb(154, 152, 152)
+      }
+      label{
+        font-size: 15px;
+        color: rgb(100, 99, 99);
+        line-height: 30px;
+      }
+      label:hover{
+        cursor: pointer;
+      }
+      button{
+        font-size: 15px;
+        font-weight: 600;
+        color: rgb(61, 60, 60);
+        padding: 5px;
+        margin-top: 20px;
+        background-color: rgb(237, 237, 237);
+        border: 1px solid rgb(100, 99, 99);
+        border-radius: 5px;
+      }
+      button:hover{
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        background-color: #eb5a5a;
+        color: white;
+      }
+      .main1{
+        transform: translateY(30px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+        <div class="main1">
+            <span>Payment Mode</span>
+            <p class="msg">Please proceed with the following options</p>
+            <form action="success.html">
+                <input type="radio" id="opt1" name="o1" required>
+                <label for="opt1">Credit/Debit Card</label><br>
+                <input type="radio" id="opt2"  name="o1" required>
+                <label for="opt2">Internet Banking</label><br>
+                <input type="radio" id="opt3"  name="o1" required>
+                <label for="opt3">Pay Using UPI</label><br>
+                <input type="radio" id="opt4"  name="o1" required>
+                <label for="opt4">Cash on Delivery</label><br>
+                <button>Proceed to pay</button>
+                
+            </form></div>
+    </div>
+    
+     </form>
+  </body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zomato Signup</title>
+    <link rel="icon" href="zomato_icon1.png" />
+    <style>
+        body {
+        background-color: #191919;
+        font-family: sans-serif;
+      }
+      .main {
+        background-color: white;
+        height: 430px;
+        width: 33%;
+        padding: 25px;
+        margin-left: 32%;
+        margin-top: 45px;
+        border: none;
+        border-radius: 6px;
+      }
+      .main11{
+        display: flex;
+      }
+      span {
+        font-size: 35px;
+        font-weight: 400;
+        color: rgb(100, 99, 99);
+      }
+      .close {
+        margin-left: 280px;
+        margin-top: 10px;
+        width: 14px;
+        height: 14px;
+      }
+      .name {
+        border: 1px solid rgb(100, 99, 99);
+        border-radius: 5px;
+        margin-top: 35px;
+        width: 100%;
+        height: 35px;
+        font-size: 17px;
+      }
+      .number {
+        border: 1px solid rgb(100, 99, 99);
+        border-radius: 5px;
+        margin-top: 30px;
+        width: 100%;
+        height: 35px;
+        font-size: 17px;
+      }
+      .pass{
+        width: 100%;
+        height: 38px;
+        margin-top: 20px;
+        background-color: #f45656;
+        border: none;
+        border-radius: 5px;
+        font-size: 17px;
+        font-weight: 500;
+        color: #f3f8ff;
+        font-family: sans-serif;
+        padding: 10px;
+      }
+      .pass:hover{
+        cursor: pointer;
+        background-color: #ec4646;
+      }
+      .check{
+        margin-top: 30px;
+      }
+      .checkbox{
+        font-size: 15px;
+        color: rgb(100, 99, 99);
+        line-height: 15px;
+      }
+      .checkbox span{
+        font-size: 15px;
+        color: #f45656;
+      }
+      .or{
+        text-align: center;
+        color: rgb(100, 99, 99);
+        margin-top: -5px;
+      }
+      .main3{
+        border: 1px solid rgb(100, 99, 99);
+        border-radius: 5px;
+        height: 40px;
+        width: 100%;
+        margin-top: 15px;
+      }
+      .main3:hover{
+        cursor: pointer;
+      }
+      .main3 img{
+        width: 25px;
+        height: 25px;
+        margin-left: 22%;
+        margin-top: 9px;
+      }
+      .main3 p{
+        margin-left: 35%;
+        font-size:17px ;
+        color:rgb(100, 99, 99) ;
+        margin-top: -25px;
+      }
+      .main4 p{
+        margin-top: 20px;
+        font-size: 17px;
+        color: rgb(100, 99, 99);
+      }
+      .main4 a{
+        text-decoration: none;
+        color: #ec4646;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+        <div class main1>
+          <div class="main11">
+            <div>
+                <span>Sign&nbsp;&nbsp;up</span>
+            </div>
+            <div>
+                <a href="main_page.html"
+          ><img src="close.png" alt="image not found" class="close"
+        /></a>
+            </div>
+          </div>
+       <form action="otp2.html">
+        <input type="text" pattern="[A-Za-z]{3}"  class="name" placeholder="Full Name" required>
+          <input
+          type="text"
+          placeholder="Phone Number"
+          class="number"
+          pattern="[6-9]{1}[0-9]{9}"
+          required
+        />
+        <input type="checkbox" class="check" required>
+        <label for="check" class="checkbox">
+            I agree to Zomato's <span>Terms of Service, Privacy Policy</span> 
+            and <span>Content Policies</span></label>
+        <!-- create account-->
+        <button class="pass">create account</button>
+      <br>
+      <hr>
+      <p class="or">or</p>
+      <div class="main3">
+      <img src="google.webp" alt="image not found">
+      <p>Continue with google</p>
+    </div>
+    <div class="main4">
+      <!-- create account -->
+      <p>
+        Already have an account? <a href="Login.html">Log in</a></a></p>
+    </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zomato Login-OTP</title>
+    <link rel="icon" href="zomato_icon1.png" />
+    <style>
+      body {
+        background-color: #191919;
+        font-family: sans-serif;
+      }
+      .main {
+        background-color: white;
+        height: 300px;
+        width: 30%;
+        padding: 25px;
+        margin-left: 32%;
+        margin-top: 105px;
+        border: none;
+        border-radius: 6px;
+      }
+      .main11 {
+        display: flex;
+      }
+      span {
+        font-size: 30px;
+        font-weight: 400;
+        color: rgb(100, 99, 99);
+      }
+      .close {
+        margin-left: 140px;
+        margin-top: 8px;
+        width: 14px;
+        height: 14px;
+      }
+      .main2 p {
+        font-size: 15px;
+        color: rgb(148, 147, 147);
+        text-align: center;
+        margin-top: 40px;
+      }
+      .main3 input {
+        width: 35px;
+        height: 35px;
+        margin-left: 40px;
+        margin-top: 20px;
+        text-align: center;
+      }
+      .submit {
+        width: 50%;
+        height: 38px;
+        margin-top: 30px;
+        margin-left: 25%;
+        margin-right: 25%;
+        background-color: #f45656;
+        border: none;
+        border-radius: 5px;
+        font-size: 17px;
+        font-weight: 500;
+        color: #f3f8ff;
+        font-family: sans-serif;
+        padding: 10px;
+      }
+      .submit:hover {
+        cursor: pointer;
+        background-color: #ec4646;
+      }
+      .main3 p {
+        text-align: center;
+        margin-top: 30px;
+        color: rgb(148, 147, 147);
+      }
+      .main3 a {
+        text-decoration: none;
+        color: rgb(100, 99, 99);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main11">
+        <div>
+          <span>OTP&nbsp;&nbsp;Verification</span>
+        </div>
+        <div>
+          <a href="Login.html"
+            ><img src="close.png" alt="image not found" class="close"
+          /></a>
+        </div>
+      </div>
+      <div class="main2">
+        <p>Check text messages for your OTP</p>
+      </div>
+      <div class="main3">
+        <form action="main_page.html">
+          <input type="text" pattern="[0-9]{1}" required />
+          <input type="text" pattern="[0-9]{1}" required />
+          <input type="text" pattern="[0-9]{1}" required />
+          <input type="text" pattern="[0-9]{1}" required />
+          <button class="submit">submit OTP</button>
+        </form>
+        <p>Not received OTP? <a href="otp.html">Resend Now</a></p>
+      </div>
+    </div>
+  </body>
+</html>
